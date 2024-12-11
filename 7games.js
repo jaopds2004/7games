@@ -76,10 +76,9 @@ javascript:(function() {
             } catch (err) {
                 alert("Falha ao copiar o texto. Tente copiar manualmente.");
             }
-
-            document.body.removeChild(textArea);
+           
         } else {
-            alert("Elemento não encontrado!");
+            
         }
     });
 })();
